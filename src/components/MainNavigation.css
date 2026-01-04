@@ -1,0 +1,28 @@
+.list a {
+    text-decoration: none;
+    color: var(--color--primary--0);
+}
+
+.list a:hover, .list a.active {
+    color: var(--color--primary--800);
+}
+
+li {
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+img {
+    height: 30px;
+    margin-right: 8px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgdiv div {
+    display: flex;align-items: center;
+}

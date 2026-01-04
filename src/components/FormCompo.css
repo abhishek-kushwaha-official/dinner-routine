@@ -1,0 +1,82 @@
+.form{
+    /* border: 10px solid pink; */
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.outliner{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+.outliner label{
+    font-style: italic;
+    font-size: 1.7rem;
+    /* font-weight: bold; */
+    align-self: center;
+    /* border: 10px dotted blue; */
+}
+
+.outliner input{
+    width: 80%;
+    height: 60%;
+    align-self: center;font-size: 1.2rem;
+}
+
+.outliner textarea{
+    width: 80%;
+    height: 60%;font-size: 1.2rem;
+    align-self: center;
+}
+
+.outliner select{
+    width: 80%; font-size: 1.2rem;
+    height: 70%;
+    align-self: center;
+}
+
+.outliner select option{
+    font-size: 1.2rem;
+}
+
+.fieldset{
+    width: 97%;
+    display: flex;
+    font-style: italic;justify-content: space-between;
+    align-self: center;
+    font-size: 1.7rem;
+}
+
+.fieldset div{
+    width: 33%;
+    display: flex;
+    margin:0px 100px;
+    justify-content: space-around;
+}
+
+.button{
+    font-size: 2rem;
+
+    margin-left: auto;
+    margin-right: 37%;
+    margin-top:10px;
+    border-radius: 6px;
+    align-self: center;
+    background-color: skyblue;
+    font-variant: small-caps;
+ 
+}
+
+/* .form input:focus{
+    align-self: flex-end; 
+   background-color: lightblue; 
+    border: 2px solid green;
+
+  border-radius: 4px;
+} */

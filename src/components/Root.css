@@ -1,0 +1,10 @@
+.nav{
+    font-variant: small-caps;
+    border: 2px solid greenyellow;
+    outline-style: solid;
+    outline-color: red;
+    font-style: bold;
+    font-size: large;
+    border-radius: 10px;
+    opacity: 1;
+}
